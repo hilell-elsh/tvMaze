@@ -1,0 +1,39 @@
+@import "colors";
+
+@import "search-form";
+@import "nav";
+
+header {
+    
+    .top-header {
+        background-color: $secondary-color;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        
+        .main-logo {
+            margin-right: 35px;
+            padding: 15px;
+            img {
+                max-height: 50px;
+
+            }
+        }
+        
+        .auth-links {
+            margin-left: auto;
+            a {
+                text-decoration: none;
+                margin: 15px;
+                color: #fff;
+                font-weight: 100;
+                font-size: 150%;
+
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}

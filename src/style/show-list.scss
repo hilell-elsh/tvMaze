@@ -1,0 +1,8 @@
+@import "show-item";
+
+.shows-list {
+    width: 800px;
+    background-color: $grey-background;
+    display: flex;
+    flex-wrap: wrap;   
+}

@@ -1,0 +1,24 @@
+@import "colors";
+
+nav {
+    background-color: $main-color;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 14.3px;
+        li {
+            padding: .9rem 1.1rem;
+            list-style: none;
+            line-height: 1;
+            a {   
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            &:hover {
+                background-color: $secondary-color;
+                cursor: pointer;
+            }
+        }
+    }
+}

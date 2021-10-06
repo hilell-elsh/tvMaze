@@ -1,0 +1,36 @@
+@import "colors";
+$input-radius: 20px;
+$input-height: $input-radius*2;
+
+.search-form {
+    display: flex;
+    align-items: center;
+
+    .search-line, .search-btn {
+        height: $input-height;
+        border: none;
+    }
+
+    input {
+        border-radius: $input-radius 0 0 $input-radius;
+        padding: 8px;
+        min-width: $input-height*10;
+
+        &::placeholder {
+            color: #ccc;
+        }
+    }
+    
+    .search-btn {
+        border-radius: 0 $input-radius $input-radius 0;
+        padding: 10px 40px;
+        background-color: $main-color;
+        cursor: pointer;
+
+
+        i, .submit-img {
+            height: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,29 @@
+@import "colors";
+
+.show-item {
+    width: 150px;
+    margin: 1%;
+    background-color: $main-color;
+    color: $light-main-color;
+
+    img {
+        width: 100%;
+    }
+    
+    hr {
+        background-color: $light-main-color;;
+        height: 1px;
+        border: 0px solid;
+    }
+    
+    h5, .item-footer i {
+        padding: 5px;
+        
+    }
+
+    .item-footer {
+        display: flex;
+        justify-content: space-around;
+
+    }
+}

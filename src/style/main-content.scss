@@ -1,0 +1,58 @@
+@import "colors";
+@import "top-ads";
+@import "show-list";
+
+main {
+   .breadcrumb {
+        height: 35px;
+        margin : 15px;
+        padding: 15px;
+        background-color: #efefe7;
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 15%);
+
+        a {
+            margin: 5px;
+            color: $main-color;
+            text-decoration: none;
+        }
+
+        span {
+            margin: 5px;
+        }
+    }
+
+    .top-ads {
+        height: 115px;
+        border: solid 1px #ccc;
+        margin: 15px;
+    }
+
+    h2 {
+        font-size: 44px;
+        font-weight: 300;
+        margin: 15px;
+    }
+
+    .content {
+        display: flex;
+
+        .shows-list {
+        flex: 1;
+        margin: 15px;
+        border: solid 1px #ccc
+        }
+
+        .filters-search {
+            width: 20%;
+            flex: 0;
+            margin: 15px;
+            ;
+            select {
+                width: 20%;
+                height: 37px;
+            }
+
+        }
+    }
+   
+}
